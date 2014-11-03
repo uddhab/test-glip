@@ -1,0 +1,16 @@
+{
+	"name": "uddhab/test-glip",
+	"license": "MIT",
+	"type": "project",
+	"description": "Test Glip",
+	"repositories": [
+		{
+			"type": "git",
+			"url": "git@github.com:united-asian/glip.git"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"united-asian/glip": "dev-autoloading"
+	}
+}

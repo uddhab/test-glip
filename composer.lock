@@ -1,0 +1,43 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3903a00592686766535e4a47e4486e0c",
+    "packages": [
+        {
+            "name": "united-asian/glip",
+            "version": "dev-autoloading",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:united-asian/glip.git",
+                "reference": "95938ada60c113e356242b76b3dd38a3692a605d"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "description": "A Git Library In PHP",
+            "time": "2014-10-31 05:12:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "united-asian/glip": 20
+    },
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}
